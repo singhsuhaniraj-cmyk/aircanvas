@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Air Canvas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+</head>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+<body>
+
+    <nav class="navbar">
+        <div class="logo"> Air Canvas</div>
+          <ul class="nav-links">
+             <li><a href="#">Canvas</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Tutorials</a></li>
+         </ul>
+
+        <div class="nav-right">
+            <button class="start-btn">start creating</button>
+            <div class="icon-box">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="icon-box">
+                <i class="fa-solid fa-circle-info"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+
+        <h1> Draw the Future <br>
+            <span>in Thin Air</span>
+        </h1>
+
+        <p>
+            The world is your canvas.
+            Experience the next evolution of
+            spatial creativity with AI-powered
+            gesture recognition.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button class="btn primary" onclick="window.location.href='canvas.html'"> Start Creating </button>
+
+            <button class="btn secondary">View Gallery</button>
+
+        </div>
+
+    </section>
+
+    <section class="section">
+
+        <p class="small-heading">THE PROCESS</p>
+
+        <h2 class="section-title"> How it Works</h2>
+        <div class="cards">
+         <div class="card">
+          <div class="card-icon">
+           <i class="fa-solid fa-camera"></i>
+          </div>
+              <h3>Camera</h3>
+                <p>
+                    Simply point your camera at the
+                    canvas to start drawing.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon pink">
+                    <i class="fa-solid fa-hand"></i>
+                </div>
+                <h3>Hand Gesture</h3>
+                <p>
+                    Use hand gestures to control
+                    your drawing and tools.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon green">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h3>Creation</h3>
+                <p>
+                    Create beautiful digital art
+                    and interactive drawings.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>  © 2026 Air Canvas.  All rights reserved. </footer>
+
+</body>
+
+</html>
